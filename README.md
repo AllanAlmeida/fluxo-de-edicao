@@ -42,6 +42,15 @@ Ela começa a te guiar:
 
 Dá para parar e continuar depois: ela anota onde parou.
 
+## Depois de montar: como editar um vídeo
+O `/fluxo-de-edicao` não edita vídeo: ele monta o seu fluxo. Durante a montagem, você escolhe o nome da sua **skill mestra** (por exemplo, `/editar`). É ela que você usa no dia a dia:
+
+1. Abra o Claude Code na pasta do vídeo.
+2. Digite a sua skill mestra (ex.: `/editar`).
+3. Ela vê em que etapa o vídeo está e te guia, uma etapa por vez.
+
+Esqueceu o nome? Digite `/` para ver a lista de skills, ou pergunte ao Claude qual é a sua skill mestra. Para continuar a montagem ou mudar o fluxo depois, use `/fluxo-de-edicao` de novo.
+
 ## O que tem aqui
 | Pasta | O que tem |
 |---|---|

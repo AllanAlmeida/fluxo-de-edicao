@@ -35,6 +35,7 @@ Tudo o que for decidido fica em `<pasta de ferramentas>/montagem.md` (a pasta é
 
 ## Fase 0. Apresentar
 Leia `guias/principios-do-fluxo.md`. Em poucas linhas, diga à pessoa:
+- **que esta skill não edita vídeo: ela monta o fluxo.** No fim, a pessoa terá as próprias skills, entre elas uma skill mestra com o nome que ela escolher (ex.: `/editar`). **É essa skill mestra que ela vai usar para editar cada vídeo.** `/fluxo-de-edicao` volta a ser usada só para continuar a montagem ou mudar o fluxo;
 - o que vai acontecer (entrevista → referências → plano do fluxo → escrever as skills → teste num clipe curto);
 - que dá para parar e continuar depois (`/fluxo-de-edicao` de novo);
 - que o resultado é dela: skills em texto que ela pode ler e mudar.
@@ -80,8 +81,10 @@ Na ordem: regras comuns → skill mestra → uma etapa por vez, na ordem do flux
 Peça um vídeo de 1–3 minutos (pode ser gravado só para isso) e rode o fluxo inteiro com a pessoa, etapa por etapa, pela skill mestra. É aqui que os scripts nascem e os primeiros aprendizados entram no caderno. Corrija as skills com o que aparecer.
 
 ## Fase 7. Fechamento
-Mostre:
-- as skills criadas e o comando para começar (`/<skill mestra>`);
+Mostre, em destaque e antes de tudo, **o comando para editar um vídeo**: "Para editar, abra o Claude Code na pasta do vídeo e digite `/<skill mestra>`. Ela vê em que etapa o vídeo está e te guia." Sugira que a pessoa anote esse comando. Se ela esquecer, basta digitar `/` para ver a lista de skills, ou perguntar ao Claude qual é a skill mestra dela; o nome também fica no `montagem.md`.
+
+Depois, mostre:
+- as skills criadas;
 - o ciclo do dia a dia: `/clear` e skill mestra a cada etapa; o caderno de aprendizados e como pedir para aplicá-los;
 - a sugestão de modelo por etapa (em `guias/principios-do-fluxo.md`).
 
